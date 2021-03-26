@@ -1,14 +1,14 @@
-![shieldsIO](https://img.shields.io/github/issues/olla/vue-dinner-calculator)
-![shieldsIO](https://img.shields.io/github/forks/olla/vue-dinner-calculator)
-![shieldsIO](https://img.shields.io/github/stars/olla/vue-dinner-calculator)
+![shieldsIO](https://img.shields.io/github/issues/olla/vue-revenue-calculator)
+![shieldsIO](https://img.shields.io/github/forks/olla/vue-revenue-calculator)
+![shieldsIO](https://img.shields.io/github/stars/olla/vue-revenue-calculator)
 
-# Vue Dinner Calculator
-### Vue Dinner Calculator is an application that calculates the cost of a dinner according to *the price of dinner per person*, *the number of people* and *tips*.
+# Vue Revenue Calculator
+### Vue Revenue Calculator is an application that calculates the cost of a revenue according to *the price of revenue per person*, *the number of people* and *tips*.
 
-![Image of App Vue Dinner Calculator](https://github.com/beatrizsmerino/vue-dinner-calculator/blob/master/README/images/vue-dinner-calculator.png)
+![Image of App Vue Revenue Calculator](https://github.com/beatrizsmerino/vue-revenue-calculator/blob/master/README/images/vue-revenue-calculator.png)
 
 ## Development interface
-![Vue logo](https://github.com/beatrizsmerino/vue-dinner-calculator/blob/master/README/images/vue-js-2.jpg)
+![Vue logo](https://github.com/beatrizsmerino/vue-revenue-calculator/blob/master/README/images/vue-js-2.jpg)
 
 Is developed with **[vue.js](https://vuejs.org/)** a Javascript framework. This project has no npm dependencies.
 
@@ -33,7 +33,7 @@ Is developed with **[vue.js](https://vuejs.org/)** a Javascript framework. This 
 ### Requirements and functionalities
 
 #### Vue data
-- priceOfDinner
+- priceOfRevenue
 - numOfPersons
 - tips
 - taxes  
@@ -48,11 +48,11 @@ Is developed with **[vue.js](https://vuejs.org/)** a Javascript framework. This 
 #### Formules
 - Total with taxes (21%)
 ```javascript
-totalTaxes = ((taxes * priceOfDinner) / 100) + priceOfDinner
+totalTaxes = ((taxes * priceOfRevenue) / 100) + priceOfRevenue
 ```
 - Total with tip
 ```javascript
-totalTip = totalTaxes + (((tip * priceOfDinner) / 100) + priceOfDinner)
+totalTip = totalTaxes + (((tip * priceOfRevenue) / 100) + priceOfRevenue)
 ```
 - Total per person
 ```javascript
