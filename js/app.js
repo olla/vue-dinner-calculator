@@ -3,7 +3,7 @@ const app = new Vue({
     data: {
         dinner: 100,
         tip: 10,
-        people: 1,
+        stadium: 4,
         taxes: 21
     },
     methods: {
